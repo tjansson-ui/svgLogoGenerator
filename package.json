@@ -1,22 +1,44 @@
 {
-  "dependencies": {
-    "inquirer": "^9.2.10"
-  },
+
   "name": "02-challenge",
+
   "description": "## Your Task",
+
   "version": "1.0.0",
+
   "main": "index.js",
+
   "type": "module",
+
   "directories": {
+
     "lib": "lib",
+
     "test": "tests"
+
   },
-  "devDependencies": {
-    "jest": "^29.6.3"
-  },
+
   "scripts": {
+
     "test": "jest"
+
   },
+
   "author": "",
-  "license": "ISC"
+
+  "license": "ISC",
+
+  "dependencies": {
+
+    "inquirer": "^9.2.10"
+
+  },
+
+  "devDependencies": {
+
+    "jest": "^29.6.3"
+
+  }
+
 }
+

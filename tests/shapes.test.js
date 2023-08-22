@@ -1,26 +1,26 @@
-import { Shape, Circle, Square, Triangle } from "../lib/shapes.js"
+import { Shape, Circle, Square, Triangle } from '../lib/shapes.js'
 
 
-describe("Triangle", () => {
-    it("should render information for an SVG Triangle", () => {
-        const shape = new Triangle();
-        expect(shape.render()).toEqual(`<polygon points="125, 10 220, 160 35, 160" fill="${shape.color}" />`);
+describe("Triangle Class", () => {
+    it("renders information for an SVG Triangle", () => {
+        const shape = new Triangle('blue');
+        expect(shape.render()).toEqual(`<polygon points="125, 10 220, 160 35, 160" fill="blue" />`);
     })
 
 })
 
-describe("Circle", () => {
-    it("should render information for an SVG Triangle", () => {
-        const shape = new Circle();
-        expect(shape.render()).toEqual(`<circle cx="125" cy="100" r="100" fill="${this.color}" />`);
+describe("Circle Class", () => {
+    it("renders information for an SVG Triangle", () => {
+        const shape = new Circle('blue');
+        expect(shape.render()).toEqual(`<circle cx="125" cy="100" r="100" fill="blue" />`);
     })
 
 })
 
-describe("Square", () => {
-    it("should render information for an SVG Triangle", () => {
-        const shape = new Square();
-        expect(shape.render()).toEqual(`<rect width="250" height="250" fill="${this.color}" />`);
+describe("Square Class", () => {
+    it("renders information for an SVG Triangle", () => {
+        const shape = new Square('blue');
+        expect(shape.render()).toEqual(`<rect width="250" height="250" fill="blue" />`);
     })
 
 })
