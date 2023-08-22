@@ -10,7 +10,7 @@ describe("Triangle Class", () => {
 })
 
 describe("Circle Class", () => {
-    it("renders information for an SVG Triangle", () => {
+    it("renders information for an SVG Circle", () => {
         const shape = new Circle('blue');
         expect(shape.render()).toEqual(`<circle cx="125" cy="100" r="100" fill="blue" />`);
     })
@@ -18,7 +18,7 @@ describe("Circle Class", () => {
 })
 
 describe("Square Class", () => {
-    it("renders information for an SVG Triangle", () => {
+    it("renders information for an SVG Square", () => {
         const shape = new Square('blue');
         expect(shape.render()).toEqual(`<rect width="250" height="250" fill="blue" />`);
     })
